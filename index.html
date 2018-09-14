@@ -1,43 +1,75 @@
 <!DOCTYPE html>
-<html lang="ja-jp" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css"rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <title>Rock Gardens</title>
-  </head>
-  <body>
-    <main>
-      <header>
-        <h1>Rock Gardens
-        枯山水</h1>
-        <span><a href="#"></a>Viewing</a>
-        <a href="#"></a>Gravel</a>
-        <a href="#"></a>Symbolism</a>
-        </span>
-        <img src="images/banner.svg" class="img-flex">
-      </header>
-    </main>
+<html lang="en-ca" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Modularity–Mindfulness</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
 
-  </body>
+<body>
+  <header role="banner">
+    <div class="unit xs-1 s-1 m-1 1-1-2">
+      <h1 class="bold">
+        <i lang="ja" class="zetta">枯山水</i>
+      <span class="peta">Rock Gardens</span>
+      </h1>
+    </div>
+
+    <div class="unit xs-1 s-1 m-1 1-1-2">
+      <nav role="navigation">
+        <ul class="list-group-inline">
+          <li>
+            <a href="#">Viewing</a>
+          </li>
+          <li>
+            <a href="#">Gravel</a>
+          </li>
+          <li>
+            <a href="#">Symbolism</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <img src="images/banner.svg" class="img-flex" alt="#">
+    <section class="island">
+      <p lang="ja">自然の親密な本質を模倣し、人生の真の意味を発見する。</p>
+      <p>Imitate the intimate essence of nature & discover the true meaning of life.</p>
+    </section>
+  </header>
+
+  <main id="main">
+    <div class="grid island 1-4">
+      <div class="unit xs-1 s-1 m-1-2 1-1-3 island 1-4">
+        <img src="images/viewing.svg" class="img-flex" alt="#">
+        <h2><i lang="ja">閲覧</i></h2>
+        <span>Viewing</span>
+        <p>A zen garden is usually relatively small, surrounded by a wall, and is often meant to be seen while seated from a single viewpoint outside the garden, such as the porch of the hojo</p>
+        <a class="btn" href="#">Learn more about Viewing</a>
+      </div>
+    </div>
+  </main>
+
+  <img src="images/gravel.svg" class="img-flex" alt="#">
+  <h2><i lang="ja">砂利</i></h2>
+  <h3>Gravel</h3>
+  <p>Gravel is usually used in zen gardens because it is less disturbed by rain and wind; Shirakawa, which is a black-speckled granite from Kyoto, was prized for its ability to hold grooves</p>
+  <button class="btn-gravel">Learn more about Gravel</button>
+
+  <img src="images/symbolism.svg" class="img-flex" alt="#">
+  <h2><i lang="ja">象徴主義</i></h2>
+  <h3>Symbolism</h3>
+  <p>In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
+  <button class="btn-symbolism">Learn more about Symbolism</button>
+
+  <footer role="contentinfo">
+    <small>© 794 Heian Period</small>
+  </footer>
+</body>
 </html>
-
-<p lang="ja">自然の親密な本質を模倣し、人生の真の意味を発見する。</p>
-<p>Imitate the intimate essence of nature & discover the true meaning of life.</p>
-
-<p lang="ja"><h2>閲覧</h2></p>
-<h3>Viewing</h3>
-<p>A zen garden is usually relatively small, surrounded by a wall, and is often meant to be seen while seated from a single viewpoint outside the garden, such as the porch of the hojo</p>
-<button class="btn-viewing">Learn more about Viewing</button>
-
-<p lang="ja"><h2>砂利</h2></p>
-<h3>Gravel</h3>
-<p>Gravel is usually used in zen gardens because it is less disturbed by rain and wind; Shirakawa, which is a black-speckled granite from Kyoto, was prized for its ability to hold grooves</p>
-<button class="btn-gravel">Learn more about Gravel</button>
-
-<p lang="ja"><h2>象徴主義</h2></p>
-<h3>Symbolism</h3>
-<p>In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
-<button class="btn-symbolism">Learn more about Symbolism</button>
-
-© 794 Heian Period
